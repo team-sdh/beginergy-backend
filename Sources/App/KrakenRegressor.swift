@@ -7,6 +7,7 @@
 import CoreML
 import Vapor
 
+
 /// Model Prediction Input Type
 @available(macOS 10.13, iOS 11.0, tvOS 11.0, watchOS 4.0, *)
 class KrakenRegressorInput : MLFeatureProvider {
@@ -91,6 +92,7 @@ class KrakenRegressor {
                                     isDirectory: true
             )
     }
+
     /**
         Construct KrakenRegressor instance with an existing MLModel object.
 

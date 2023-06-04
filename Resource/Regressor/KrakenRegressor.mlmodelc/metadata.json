@@ -30,13 +30,13 @@
           "name" : "MLModelType_featureVectorizer"
         },
         {
-          "name" : "MLModelType_glmRegressor"
+          "name" : "MLModelType_treeEnsembleRegressor"
         }
       ]
     },
     "userDefinedMetadata" : {
-      "com.apple.createml.app.tag" : "99.4",
       "com.apple.createml.version" : "13.3.1",
+      "com.apple.createml.app.tag" : "99.4",
       "com.apple.coreml.model.preview.type" : "tabularRegressor",
       "com.apple.createml.app.version" : "4.0"
     },
